@@ -1,6 +1,13 @@
 #include "opencv2/opencv.hpp"
+#include <opencv2/core.hpp>
+#include <opencv2/imgcodecs.hpp>
+#include <opencv2/highgui.hpp>
+
 #include <iostream>
 
+
+using namespace std;
+using namespace cv;
 
 void MatOp1();
 void MatOp2();
@@ -18,7 +25,22 @@ int main()
 	//MatOp4();
 	//MatOp5();
 	//MatOp6();
-	MatOp7();
+	//MatOp7();
+	Mat image;
+	image = imread("cat.bmp", IMREAD_COLOR);
+	if (image.empty())
+	{
+		cout << "Could not open or find the image" << endl;
+		return -1;
+	}
+
+	namedWindow("Original", WINDOW_AUTOSIZE);
+	imshow("Original", image);
+
+	waitKey(0);
+	
+
+	return 0;
 }
 
 void MatOp1()
