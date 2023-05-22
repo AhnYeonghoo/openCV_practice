@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\ch03",
-    "\\ch03\\MapOp"
+    "\\ch03\\MapOp",
+    "\\CV_ex_01"
   ],
-  "SelectedNode": "\\ch03\\MapOp\\main.cpp",
+  "SelectedNode": "\\CV_ex_01\\rect.cpp",
   "PreviewInSolutionExplorer": false
 }
