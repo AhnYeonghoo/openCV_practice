@@ -134,6 +134,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="caffe.cpp" />
     <ClCompile Include="first.cpp" />
     <ClCompile Include="mat.cpp" />
     <ClCompile Include="mat_init1.cpp" />

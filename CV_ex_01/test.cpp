@@ -3,7 +3,7 @@ using namespace std;
 using namespace cv;
 
 
-int main()
+int main22()
 {
 	VideoCapture cap(0);
 	if (!cap.isOpened())

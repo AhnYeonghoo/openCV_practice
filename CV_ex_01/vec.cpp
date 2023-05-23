@@ -2,7 +2,7 @@
 using namespace cv;
 using namespace std;
 
-int main6()
+int main111()
 {
 	Vec<int, 2> v1(5, 12);
 	Vec<double, 3> v2(40, 130.7, 125.6);
