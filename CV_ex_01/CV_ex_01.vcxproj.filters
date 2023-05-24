@@ -51,5 +51,11 @@
     <ClCompile Include="caffe.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="face_detection.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="torch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

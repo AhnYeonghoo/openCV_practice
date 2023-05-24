@@ -107,14 +107,14 @@
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(OPENCV_DIR)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ConformanceMode>false</ConformanceMode>
+      <AdditionalIncludeDirectories>$(OPENCV_DIR)\include;C:\libtorch\include;C:\libtorch\include\torch\csrc\api\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(OPENCV_DIR)\x64\vc16\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opencv_world470d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OPENCV_DIR)\x64\vc16\lib;C:\libtorch\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_world470d.lib;torch_cpu.lib;c10.lib;torch.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -135,6 +135,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="caffe.cpp" />
+    <ClCompile Include="face_detection.cpp" />
     <ClCompile Include="first.cpp" />
     <ClCompile Include="mat.cpp" />
     <ClCompile Include="mat_init1.cpp" />
@@ -145,6 +146,7 @@
     <ClCompile Include="scalar.cpp" />
     <ClCompile Include="size.cpp" />
     <ClCompile Include="test.cpp" />
+    <ClCompile Include="torch.cpp" />
     <ClCompile Include="vec.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

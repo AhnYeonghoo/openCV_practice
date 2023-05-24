@@ -4,7 +4,7 @@ using namespace cv;
 using namespace cv::dnn;
 using namespace std;
 
-int main()
+int mainmain()
 {
 	string CLASSES[] = { "background", "aeroplane", "bicycle", "bird", "boat",
 	"bottle", "bus", "car", "cat", "chair", "cow", "diningtable",
