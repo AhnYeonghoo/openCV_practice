@@ -2531,6 +2531,676 @@ C:\libtorch\include\torch\csrc\api\include\torch\optim\lbfgs.h(49,3): message : 
 C:\libtorch\include\torch\csrc\api\include\torch\optim\lbfgs.h(87,26): warning C4251: 'torch::optim::LBFGS::_numel_cache': class 'c10::optional<int64_t>'에서는 class 'torch::optim::LBFGS'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
 C:\libtorch\include\c10\core\TensorImpl.h(1702,12): message : 'c10::optional<int64_t>' 선언을 참조하십시오.
 C:\libtorch\include\torch\csrc\api\include\torch\special.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Users\dksdu\OneDrive\바탕 화면\openCV\CV_ex_01\torch.cpp(17,24): error C2039: 'load': 'torch::jit'의 멤버가 아닙니다.
-C:\libtorch\include\torch\csrc\api\include\torch\jit.h(10,11): message : 'torch::jit' 선언을 참조하십시오.
-C:\Users\dksdu\OneDrive\바탕 화면\openCV\CV_ex_01\torch.cpp(17,28): error C3861: 'load': 식별자를 찾을 수 없습니다.
+C:\libtorch\include\c10\util\Optional.h(212,1): warning C4624: 'c10::constexpr_storage_t<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=torch::jit::Operator
+          ]
+C:\libtorch\include\c10\util\Optional.h(411,1): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::constexpr_storage_t<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=torch::jit::Operator
+          ]
+C:\libtorch\include\c10\util\Optional.h(549): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::trivially_copyable_optimization_optional_base<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=torch::jit::Operator
+          ]
+C:\libtorch\include\c10\util\Optional.h(549,26): message : 컴파일되는 별칭 템플릿 인스턴스화 'c10::OptionalBase<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=torch::jit::Operator
+          ]
+C:\libtorch\include\torch\csrc\jit\runtime\custom_operator.h(23,1): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::optional<torch::jit::Operator>'에 대한 참조를 확인하세요.
+C:\libtorch\include\c10\util\Optional.h(446,1): warning C4624: 'c10::trivially_copyable_optimization_optional_base<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=torch::jit::Operator
+          ]
+C:\libtorch\include\caffe2\serialize\inline_container.h(125,35): warning C4251: 'caffe2::serialize::PyTorchStreamReader::ar_': class 'std::unique_ptr<mz_zip_archive,std::default_delete<mz_zip_archive>>'에서는 class 'caffe2::serialize::PyTorchStreamReader'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\caffe2\serialize\inline_container.h(125,8): message : 'std::unique_ptr<mz_zip_archive,std::default_delete<mz_zip_archive>>' 선언을 참조하십시오.
+C:\libtorch\include\caffe2\serialize\inline_container.h(126,15): warning C4251: 'caffe2::serialize::PyTorchStreamReader::archive_name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'caffe2::serialize::PyTorchStreamReader'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xstring(5155,29): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+C:\libtorch\include\caffe2\serialize\inline_container.h(127,15): warning C4251: 'caffe2::serialize::PyTorchStreamReader::archive_name_plus_slash_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'caffe2::serialize::PyTorchStreamReader'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xstring(5155,29): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+C:\libtorch\include\caffe2\serialize\inline_container.h(128,41): warning C4251: 'caffe2::serialize::PyTorchStreamReader::in_': class 'std::shared_ptr<caffe2::serialize::ReadAdapterInterface>'에서는 class 'caffe2::serialize::PyTorchStreamReader'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\caffe2\serialize\inline_container.h(100,37): message : 'std::shared_ptr<caffe2::serialize::ReadAdapterInterface>' 선언을 참조하십시오.
+C:\libtorch\include\caffe2\serialize\inline_container.h(130,14): warning C4251: 'caffe2::serialize::PyTorchStreamReader::reader_lock_': class 'std::mutex'에서는 class 'caffe2::serialize::PyTorchStreamReader'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\mutex(76,19): message : 'std::mutex' 선언을 참조하십시오.
+C:\libtorch\include\caffe2\serialize\inline_container.h(165,35): warning C4251: 'caffe2::serialize::PyTorchStreamWriter::files_written_': class 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>'에서는 class 'caffe2::serialize::PyTorchStreamWriter'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\torch\custom_class.h(491,12): message : 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 선언을 참조하십시오.
+C:\libtorch\include\caffe2\serialize\inline_container.h(166,35): warning C4251: 'caffe2::serialize::PyTorchStreamWriter::ar_': class 'std::unique_ptr<mz_zip_archive,std::default_delete<mz_zip_archive>>'에서는 class 'caffe2::serialize::PyTorchStreamWriter'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\caffe2\serialize\inline_container.h(125,8): message : 'std::unique_ptr<mz_zip_archive,std::default_delete<mz_zip_archive>>' 선언을 참조하십시오.
+C:\libtorch\include\caffe2\serialize\inline_container.h(167,15): warning C4251: 'caffe2::serialize::PyTorchStreamWriter::archive_name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'caffe2::serialize::PyTorchStreamWriter'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xstring(5155,29): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+C:\libtorch\include\caffe2\serialize\inline_container.h(168,15): warning C4251: 'caffe2::serialize::PyTorchStreamWriter::archive_name_plus_slash_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'caffe2::serialize::PyTorchStreamWriter'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xstring(5155,29): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+C:\libtorch\include\caffe2\serialize\inline_container.h(169,15): warning C4251: 'caffe2::serialize::PyTorchStreamWriter::padding_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'caffe2::serialize::PyTorchStreamWriter'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xstring(5155,29): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+C:\libtorch\include\caffe2\serialize\inline_container.h(170,17): warning C4251: 'caffe2::serialize::PyTorchStreamWriter::file_stream_': class 'std::basic_ofstream<char,std::char_traits<char>>'에서는 class 'caffe2::serialize::PyTorchStreamWriter'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\iosfwd(246,35): message : 'std::basic_ofstream<char,std::char_traits<char>>' 선언을 참조하십시오.
+C:\libtorch\include\caffe2\serialize\inline_container.h(171,46): warning C4251: 'caffe2::serialize::PyTorchStreamWriter::writer_func_': class 'std::function<size_t (const void *,size_t)>'에서는 class 'caffe2::serialize::PyTorchStreamWriter'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\torch\csrc\api\include\torch\serialize\output-archive.h(67,27): message : 'std::function<size_t (const void *,size_t)>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\frontend\lexer.h(400,16): warning C4251: 'torch::jit::SharedParserData::head': class 'std::unique_ptr<torch::jit::TokenTrie,std::default_delete<torch::jit::TokenTrie>>'에서는 struct 'torch::jit::SharedParserData'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\torch\csrc\jit\frontend\lexer.h(145,27): message : 'std::unique_ptr<torch::jit::TokenTrie,std::default_delete<torch::jit::TokenTrie>>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\frontend\lexer.h(426,51): warning C4267: '인수': 'size_t'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int32_t
+          ]
+C:\libtorch\include\torch\csrc\jit\frontend\lexer.h(511,34): warning C4244: '인수': 'const int64_t'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int32_t
+          ]
+C:\libtorch\include\torch\csrc\jit\frontend\error_report.h(14,54): warning C4275: DLL 인터페이스가 아닌 class 'std::exception'이(가) DLL 인터페이스 struct 'torch::jit::ErrorReport'의 기본으로 사용되었습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\exception(38,19): message : 'std::exception' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\frontend\error_report.h(14,18): message : 'torch::jit::ErrorReport' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\frontend\error_report.h(41,29): warning C4251: 'torch::jit::ErrorReport::ss': class 'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>'에서는 struct 'torch::jit::ErrorReport'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\iosfwd(243,35): message : 'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\frontend\error_report.h(42,20): warning C4251: 'torch::jit::ErrorReport::context': struct 'torch::jit::OwnedSourceRange'에서는 struct 'torch::jit::ErrorReport'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\torch\csrc\jit\frontend\source_range.h(398,8): message : 'torch::jit::OwnedSourceRange' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\frontend\error_report.h(43,23): warning C4251: 'torch::jit::ErrorReport::the_message': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 struct 'torch::jit::ErrorReport'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xstring(5155,29): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\frontend\error_report.h(44,21): warning C4251: 'torch::jit::ErrorReport::error_stack': class 'std::vector<torch::jit::Call,std::allocator<torch::jit::Call>>'에서는 struct 'torch::jit::ErrorReport'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\torch\csrc\jit\frontend\error_report.h(44,8): message : 'std::vector<torch::jit::Call,std::allocator<torch::jit::Call>>' 선언을 참조하십시오.
+C:\libtorch\include\c10\util\Optional.h(212,1): warning C4624: 'c10::constexpr_storage_t<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=torch::jit::NamedValue
+          ]
+C:\libtorch\include\c10\util\Optional.h(411,1): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::constexpr_storage_t<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=torch::jit::NamedValue
+          ]
+C:\libtorch\include\c10\util\Optional.h(549): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::trivially_copyable_optimization_optional_base<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=torch::jit::NamedValue
+          ]
+C:\libtorch\include\c10\util\Optional.h(549,26): message : 컴파일되는 별칭 템플릿 인스턴스화 'c10::OptionalBase<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=torch::jit::NamedValue
+          ]
+C:\libtorch\include\torch\csrc\jit\frontend\schema_matching.h(31,50): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::optional<torch::jit::NamedValue>'에 대한 참조를 확인하세요.
+C:\libtorch\include\c10\util\Optional.h(446,1): warning C4624: 'c10::trivially_copyable_optimization_optional_base<T>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              T=torch::jit::NamedValue
+          ]
+C:\libtorch\include\torch\csrc\jit\frontend\sugared_value.h(30,57): warning C4251: 'std::enable_shared_from_this<torch::jit::SugaredValue>::_Wptr': class 'std::weak_ptr<_Ty>'에서는 class 'std::enable_shared_from_this<torch::jit::SugaredValue>'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=torch::jit::SugaredValue
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(3129,16): message : 'std::weak_ptr<_Ty>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=torch::jit::SugaredValue
+          ]
+C:\libtorch\include\torch\csrc\jit\frontend\sugared_value.h(223,29): warning C4251: 'torch::jit::BuiltinFunction::self': class 'c10::optional<torch::jit::NamedValue>'에서는 struct 'torch::jit::BuiltinFunction'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\torch\csrc\jit\frontend\schema_matching.h(31,16): message : 'c10::optional<torch::jit::NamedValue>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\frontend\sugared_value.h(303,46): warning C4251: 'torch::jit::SugaredTupleValue::tup_': class 'std::vector<std::shared_ptr<torch::jit::SugaredValue>,std::allocator<std::shared_ptr<torch::jit::SugaredValue>>>'에서는 struct 'torch::jit::SugaredTupleValue'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\torch\csrc\jit\frontend\sugared_value.h(67,16): message : 'std::vector<std::shared_ptr<torch::jit::SugaredValue>,std::allocator<std::shared_ptr<torch::jit::SugaredValue>>>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\frontend\sugared_value.h(329,15): warning C4251: 'torch::jit::BuiltinModule::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 struct 'torch::jit::BuiltinModule'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xstring(5155,29): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\frontend\sugared_value.h(332,26): warning C4251: 'torch::jit::BuiltinModule::version': class 'c10::optional<int64_t>'에서는 struct 'torch::jit::BuiltinModule'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\c10\core\TensorImpl.h(1702,12): message : 'c10::optional<int64_t>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\frontend\sugared_value.h(358,16): warning C4251: 'torch::jit::ClassValue::type_': class 'std::shared_ptr<c10::ClassType>'에서는 struct 'torch::jit::ClassValue'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\ATen\core\custom_class.h(13,27): message : 'std::shared_ptr<c10::ClassType>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\frontend\sugared_value.h(375,16): warning C4251: 'torch::jit::NamedTupleConstructor::type_': class 'std::shared_ptr<c10::TupleType>'에서는 struct 'torch::jit::NamedTupleConstructor'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\ATen\core\jit_type.h(1143,27): message : 'std::shared_ptr<c10::TupleType>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\frontend\sugared_value.h(536,11): warning C4251: 'torch::jit::CastValue::type_': class 'c10::Type::SingletonOrSharedTypePtr<c10::Type>'에서는 struct 'torch::jit::CastValue'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\ATen\core\jit_type_base.h(384,19): message : 'c10::Type::SingletonOrSharedTypePtr<c10::Type>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\frontend\sugared_value.h(566,14): warning C4251: 'torch::jit::TensorCastValue::self_': struct 'torch::jit::NamedValue'에서는 struct 'torch::jit::TensorCastValue'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\torch\csrc\jit\ir\named_value.h(16,8): message : 'torch::jit::NamedValue' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\frontend\sugared_value.h(588,19): warning C4251: 'torch::jit::MagicMethod::base_value_': class 'std::shared_ptr<torch::jit::SugaredValue>'에서는 struct 'torch::jit::MagicMethod'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\torch\csrc\jit\api\compilation_unit.h(38,16): message : 'std::shared_ptr<torch::jit::SugaredValue>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\frontend\sugared_value.h(589,15): warning C4251: 'torch::jit::MagicMethod::desugared_name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 struct 'torch::jit::MagicMethod'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xstring(5155,29): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\frontend\sugared_value.h(669,26): warning C4251: 'torch::jit::RangeValue::static_len_': class 'c10::optional<int64_t>'에서는 struct 'torch::jit::RangeValue'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\c10\core\TensorImpl.h(1702,12): message : 'c10::optional<int64_t>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\frontend\sugared_value.h(732,26): warning C4251: 'torch::jit::IterableTree::unroll_length_': class 'c10::optional<int64_t>'에서는 struct 'torch::jit::IterableTree'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\c10\core\TensorImpl.h(1702,12): message : 'c10::optional<int64_t>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\frontend\sugared_value.h(733,32): warning C4251: 'torch::jit::IterableTree::children_': class 'std::vector<std::shared_ptr<torch::jit::SugaredValue>,std::allocator<std::shared_ptr<torch::jit::SugaredValue>>>'에서는 struct 'torch::jit::IterableTree'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\torch\csrc\jit\frontend\sugared_value.h(67,16): message : 'std::vector<std::shared_ptr<torch::jit::SugaredValue>,std::allocator<std::shared_ptr<torch::jit::SugaredValue>>>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\frontend\sugared_value.h(809,15): warning C4251: 'torch::jit::ExceptionValue::message_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 struct 'torch::jit::ExceptionValue'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xstring(5155,29): message : 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\frontend\sugared_value.h(828,15): warning C4251: 'torch::jit::SugaredEnumClass::enum_type_': class 'std::shared_ptr<c10::EnumType>'에서는 struct 'torch::jit::SugaredEnumClass'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\ATen\core\ivalue_inl.h(1598,19): message : 'std::shared_ptr<c10::EnumType>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\frontend\script_type_parser.h(48,15): warning C4251: 'torch::jit::ScriptTypeParser::resolver_': class 'std::shared_ptr<torch::jit::Resolver>'에서는 class 'torch::jit::ScriptTypeParser'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\torch\csrc\jit\api\object.h(14,26): message : 'std::shared_ptr<torch::jit::Resolver>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\serialization\pickler.h(235,44): warning C4251: 'torch::jit::Pickler::writer_': class 'std::function<void (const char *,size_t)>'에서는 class 'torch::jit::Pickler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\torch\csrc\jit\serialization\pickler.h(124,16): message : 'std::function<void (const char *,size_t)>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\serialization\pickler.h(242,21): warning C4251: 'torch::jit::Pickler::stack_': class 'std::vector<char,std::allocator<char>>'에서는 class 'torch::jit::Pickler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\torch\csrc\api\include\torch\serialize.h(75,16): message : 'std::vector<char,std::allocator<char>>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\serialization\pickler.h(254,45): warning C4251: 'torch::jit::Pickler::memoized_ivalue_map_': class 'std::unordered_map<const void *,uint32_t,std::hash<const void *>,std::equal_to<const void *>,std::allocator<std::pair<const void *const ,uint32_t>>>'에서는 class 'torch::jit::Pickler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\torch\csrc\jit\serialization\pickler.h(254,8): message : 'std::unordered_map<const void *,uint32_t,std::hash<const void *>,std::equal_to<const void *>,std::allocator<std::pair<const void *const ,uint32_t>>>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\serialization\pickler.h(260,23): warning C4251: 'torch::jit::Pickler::memoized_ivalues_': class 'std::vector<c10::IValue,std::allocator<c10::IValue>>'에서는 class 'torch::jit::Pickler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\c10\core\impl\PyInterpreter.h(25,20): message : 'std::vector<c10::IValue,std::allocator<c10::IValue>>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\serialization\pickler.h(262,63): warning C4251: 'torch::jit::Pickler::type_renamer_': class 'std::function<c10::QualifiedName (const c10::ClassTypePtr &)>'에서는 class 'torch::jit::Pickler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\torch\csrc\jit\serialization\pickler.h(131,12): message : 'std::function<c10::QualifiedName (const c10::ClassTypePtr &)>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\serialization\pickler.h(269,49): warning C4251: 'torch::jit::Pickler::get_tensor_id_': class 'std::function<std::string (const at::Tensor &)>'에서는 class 'torch::jit::Pickler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\torch\csrc\jit\serialization\pickler.h(133,12): message : 'std::function<std::string (const at::Tensor &)>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\serialization\pickler.h(273,27): warning C4251: 'torch::jit::Pickler::tensor_data_': class 'std::vector<at::Tensor,std::allocator<at::Tensor>>'에서는 class 'torch::jit::Pickler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\ATen\ops\chunk_ops.h(18,25): message : 'std::vector<at::Tensor,std::allocator<at::Tensor>>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\serialization\pickler.h(274,45): warning C4251: 'torch::jit::Pickler::memoized_storage_map_': class 'std::unordered_map<const void *,uint32_t,std::hash<const void *>,std::equal_to<const void *>,std::allocator<std::pair<const void *const ,uint32_t>>>'에서는 class 'torch::jit::Pickler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\torch\csrc\jit\serialization\pickler.h(254,8): message : 'std::unordered_map<const void *,uint32_t,std::hash<const void *>,std::equal_to<const void *>,std::allocator<std::pair<const void *const ,uint32_t>>>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\serialization\pickler.h(276,45): warning C4251: 'torch::jit::Pickler::memoized_globals_map_': class 'std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>'에서는 class 'torch::jit::Pickler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\torch\csrc\jit\serialization\pickler.h(276,8): message : 'std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\serialization\pickler.h(277,45): warning C4251: 'torch::jit::Pickler::memoized_strings_map_': class 'std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>'에서는 class 'torch::jit::Pickler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\torch\csrc\jit\serialization\pickler.h(276,8): message : 'std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\serialization\pickler.h(278,45): warning C4251: 'torch::jit::Pickler::memoized_devices_map_': class 'std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>'에서는 class 'torch::jit::Pickler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\torch\csrc\jit\serialization\pickler.h(276,8): message : 'std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(139,40): warning C4251: 'torch::jit::Unpickler::reader_': class 'std::function<size_t (char *,size_t)>'에서는 class 'torch::jit::Unpickler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(38,12): message : 'std::function<size_t (char *,size_t)>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(145,23): warning C4251: 'torch::jit::Unpickler::stack_': class 'std::vector<c10::IValue,std::allocator<c10::IValue>>'에서는 class 'torch::jit::Unpickler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\c10\core\impl\PyInterpreter.h(25,20): message : 'std::vector<c10::IValue,std::allocator<c10::IValue>>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(149,42): warning C4251: 'torch::jit::Unpickler::globals_': class 'std::vector<std::function<void (void)>,std::allocator<std::function<void (void)>>>'에서는 class 'torch::jit::Unpickler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\torch\csrc\autograd\graph_task.h(187,8): message : 'std::vector<std::function<void (void)>,std::allocator<std::function<void (void)>>>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(150,23): warning C4251: 'torch::jit::Unpickler::memo_table_': class 'std::vector<c10::IValue,std::allocator<c10::IValue>>'에서는 class 'torch::jit::Unpickler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\c10\core\impl\PyInterpreter.h(25,20): message : 'std::vector<c10::IValue,std::allocator<c10::IValue>>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(151,23): warning C4251: 'torch::jit::Unpickler::marks_': class 'std::vector<T,std::allocator<T>>'에서는 class 'torch::jit::Unpickler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              T=size_t
+          ]
+C:\libtorch\include\c10\util\ArrayRef.h(247,8): message : 'std::vector<T,std::allocator<T>>' 선언을 참조하십시오.
+          with
+          [
+              T=size_t
+          ]
+C:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(152,29): warning C4251: 'torch::jit::Unpickler::tensor_table_': class 'c10::ArrayRef<at::Tensor>'에서는 class 'torch::jit::Unpickler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\ATen\core\ATen_fwd.h(32,25): message : 'c10::ArrayRef<at::Tensor>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(158,49): warning C4251: 'torch::jit::Unpickler::type_cache_': class 'std::unordered_map<std::string,c10::TypePtr,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,c10::TypePtr>>>'에서는 class 'torch::jit::Unpickler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\ATen\core\type_factory.h(50,21): message : 'std::unordered_map<std::string,c10::TypePtr,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,c10::TypePtr>>>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(161,16): warning C4251: 'torch::jit::Unpickler::type_resolver_': class 'std::function<c10::StrongTypePtr (const c10::QualifiedName &)>'에서는 class 'torch::jit::Unpickler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(14,10): message : 'std::function<c10::StrongTypePtr (const c10::QualifiedName &)>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(162,13): warning C4251: 'torch::jit::Unpickler::obj_loader_': class 'std::function<c10::intrusive_ptr<c10::ivalue::Object,c10::detail::intrusive_target_default_null_type<TTarget>> (c10::StrongTypePtr,c10::IValue)>'에서는 class 'torch::jit::Unpickler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              TTarget=c10::ivalue::Object
+          ]
+C:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(16,24): message : 'std::function<c10::intrusive_ptr<c10::ivalue::Object,c10::detail::intrusive_target_default_null_type<TTarget>> (c10::StrongTypePtr,c10::IValue)>' 선언을 참조하십시오.
+          with
+          [
+              TTarget=c10::ivalue::Object
+          ]
+C:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(165,50): warning C4251: 'torch::jit::Unpickler::read_record_': class 'std::function<c10::DataPtr (const std::string &)>'에서는 class 'torch::jit::Unpickler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(56,12): message : 'std::function<c10::DataPtr (const std::string &)>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(166,29): warning C4251: 'torch::jit::Unpickler::device_': class 'c10::optional<c10::Device>'에서는 class 'torch::jit::Unpickler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\c10\core\TensorOptions.h(25,10): message : 'c10::optional<c10::Device>' 선언을 참조하십시오.
+C:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(176,50): warning C4251: 'torch::jit::Unpickler::storage_context_': class 'std::shared_ptr<torch::jit::DeserializationStorageContext>'에서는 class 'torch::jit::Unpickler'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(60,12): message : 'std::shared_ptr<torch::jit::DeserializationStorageContext>' 선언을 참조하십시오.
+C:\Users\dksdu\OneDrive\바탕 화면\openCV\CV_ex_01\torch.cpp(21,27): warning C4101: 'e' :참조되지 않은 지역 변수입니다.
+C:\libtorch\include\c10\util\flat_hash_map.h(171,1): warning C4624: 'ska::detailv3::sherwood_v3_entry<std::pair<K,V>>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              K=std::string,
+              V=std::unique_ptr<torch::optim::OptimizerParamState,std::default_delete<torch::optim::OptimizerParamState>>
+          ]
+C:\libtorch\include\c10\util\flat_hash_map.h(779,1): message : 컴파일되는 클래스 템플릿 인스턴스화 'ska::detailv3::sherwood_v3_entry<std::pair<K,V>>'에 대한 참조를 확인하세요.
+          with
+          [
+              K=std::string,
+              V=std::unique_ptr<torch::optim::OptimizerParamState,std::default_delete<torch::optim::OptimizerParamState>>
+          ]
+C:\libtorch\include\c10\util\flat_hash_map.h(775,16): message : 클래스 템플릿 멤버 함수 'ska::detailv3::sherwood_v3_entry<std::pair<K,V>> *ska::detailv3::sherwood_v3_table<std::pair<K,V>,K,H,ska::detailv3::KeyOrValueHasher<K,std::pair<K,V>,H>,E,ska::detailv3::KeyOrValueEquality<K,std::pair<K,V>,E>,A,std::allocator<ska::detailv3::sherwood_v3_entry<std::pair<K,V>>>>::empty_default_table(void)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              K=std::string,
+              V=std::unique_ptr<torch::optim::OptimizerParamState,std::default_delete<torch::optim::OptimizerParamState>>,
+              H=std::hash<std::string>,
+              E=std::equal_to<std::string>,
+              A=std::allocator<std::pair<std::string,std::unique_ptr<torch::optim::OptimizerParamState,std::default_delete<torch::optim::OptimizerParamState>>>>
+          ]
+C:\libtorch\include\c10\util\flat_hash_map.h(768,45): message : 'ska::detailv3::sherwood_v3_table<std::pair<K,V>,K,H,ska::detailv3::KeyOrValueHasher<K,std::pair<K,V>,H>,E,ska::detailv3::KeyOrValueEquality<K,std::pair<K,V>,E>,A,std::allocator<ska::detailv3::sherwood_v3_entry<std::pair<K,V>>>>::sherwood_v3_table'에서 'ska::detailv3::sherwood_v3_table<std::pair<K,V>,K,H,ska::detailv3::KeyOrValueHasher<K,std::pair<K,V>,H>,E,ska::detailv3::KeyOrValueEquality<K,std::pair<K,V>,E>,A,std::allocator<ska::detailv3::sherwood_v3_entry<std::pair<K,V>>>>::empty_default_table'에 대한 첫 번째 참조를 확인하세요.
+          with
+          [
+              K=std::string,
+              V=std::unique_ptr<torch::optim::OptimizerParamState,std::default_delete<torch::optim::OptimizerParamState>>,
+              H=std::hash<std::string>,
+              E=std::equal_to<std::string>,
+              A=std::allocator<std::pair<std::string,std::unique_ptr<torch::optim::OptimizerParamState,std::default_delete<torch::optim::OptimizerParamState>>>>
+          ]
+C:\libtorch\include\c10\util\flat_hash_map.h(1929,24): message : 컴파일되는 클래스 템플릿 인스턴스화 'ska::detailv3::sherwood_v3_table<std::pair<K,V>,K,H,ska::detailv3::KeyOrValueHasher<K,std::pair<K,V>,H>,E,ska::detailv3::KeyOrValueEquality<K,std::pair<K,V>,E>,A,std::allocator<ska::detailv3::sherwood_v3_entry<std::pair<K,V>>>>'에 대한 참조를 확인하세요.
+          with
+          [
+              K=std::string,
+              V=std::unique_ptr<torch::optim::OptimizerParamState,std::default_delete<torch::optim::OptimizerParamState>>,
+              H=std::hash<std::string>,
+              E=std::equal_to<std::string>,
+              A=std::allocator<std::pair<std::string,std::unique_ptr<torch::optim::OptimizerParamState,std::default_delete<torch::optim::OptimizerParamState>>>>
+          ]
+C:\libtorch\include\torch\csrc\api\include\torch\optim\optimizer.h(174,73): message : 컴파일되는 클래스 템플릿 인스턴스화 'ska::flat_hash_map<std::string,std::unique_ptr<torch::optim::OptimizerParamState,std::default_delete<torch::optim::OptimizerParamState>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<K,V>>>'에 대한 참조를 확인하세요.
+          with
+          [
+              K=std::string,
+              V=std::unique_ptr<torch::optim::OptimizerParamState,std::default_delete<torch::optim::OptimizerParamState>>
+          ]
+C:\libtorch\include\c10\util\flat_hash_map.h(171,1): warning C4624: 'ska::detailv3::sherwood_v3_entry<std::pair<K,V>>': 소멸자가 암시적으로 삭제된 것으로 정의되었습니다.
+          with
+          [
+              K=c10::DispatchKey,
+              V=std::list<c10::impl::AnnotatedKernel,std::allocator<c10::impl::AnnotatedKernel>>
+          ]
+C:\libtorch\include\c10\util\flat_hash_map.h(711,1): message : 컴파일되는 클래스 템플릿 인스턴스화 'ska::detailv3::sherwood_v3_entry<std::pair<K,V>>'에 대한 참조를 확인하세요.
+          with
+          [
+              K=c10::DispatchKey,
+              V=std::list<c10::impl::AnnotatedKernel,std::allocator<c10::impl::AnnotatedKernel>>
+          ]
+C:\libtorch\include\c10\util\flat_hash_map.h(708,8): message : 클래스 템플릿 멤버 함수 'void ska::detailv3::sherwood_v3_table<std::pair<K,V>,K,H,ska::detailv3::KeyOrValueHasher<K,std::pair<K,V>,H>,E,ska::detailv3::KeyOrValueEquality<K,std::pair<K,V>,E>,A,std::allocator<ska::detailv3::sherwood_v3_entry<std::pair<K,V>>>>::clear(void)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              K=c10::DispatchKey,
+              V=std::list<c10::impl::AnnotatedKernel,std::allocator<c10::impl::AnnotatedKernel>>,
+              H=std::hash<c10::DispatchKey>,
+              E=std::equal_to<c10::DispatchKey>,
+              A=std::allocator<std::pair<c10::DispatchKey,std::list<c10::impl::AnnotatedKernel,std::allocator<c10::impl::AnnotatedKernel>>>>
+          ]
+C:\libtorch\include\c10\util\flat_hash_map.h(431,10): message : 'ska::detailv3::sherwood_v3_table<std::pair<K,V>,K,H,ska::detailv3::KeyOrValueHasher<K,std::pair<K,V>,H>,E,ska::detailv3::KeyOrValueEquality<K,std::pair<K,V>,E>,A,std::allocator<ska::detailv3::sherwood_v3_entry<std::pair<K,V>>>>::~sherwood_v3_table'에서 'ska::detailv3::sherwood_v3_table<std::pair<K,V>,K,H,ska::detailv3::KeyOrValueHasher<K,std::pair<K,V>,H>,E,ska::detailv3::KeyOrValueEquality<K,std::pair<K,V>,E>,A,std::allocator<ska::detailv3::sherwood_v3_entry<std::pair<K,V>>>>::clear'에 대한 첫 번째 참조를 확인하세요.
+          with
+          [
+              K=c10::DispatchKey,
+              V=std::list<c10::impl::AnnotatedKernel,std::allocator<c10::impl::AnnotatedKernel>>,
+              H=std::hash<c10::DispatchKey>,
+              E=std::equal_to<c10::DispatchKey>,
+              A=std::allocator<std::pair<c10::DispatchKey,std::list<c10::impl::AnnotatedKernel,std::allocator<c10::impl::AnnotatedKernel>>>>
+          ]
+C:\libtorch\include\c10\util\flat_hash_map.h(2035,1): message : 'ska::flat_hash_map<c10::DispatchKey,std::list<c10::impl::AnnotatedKernel,std::allocator<c10::impl::AnnotatedKernel>>,std::hash<c10::DispatchKey>,std::equal_to<K>,std::allocator<std::pair<K,V>>>::~flat_hash_map'에서 'ska::detailv3::sherwood_v3_table<std::pair<K,V>,K,H,ska::detailv3::KeyOrValueHasher<K,std::pair<K,V>,H>,E,ska::detailv3::KeyOrValueEquality<K,std::pair<K,V>,E>,A,std::allocator<ska::detailv3::sherwood_v3_entry<std::pair<K,V>>>>::~sherwood_v3_table'에 대한 첫 번째 참조를 확인하세요.
+          with
+          [
+              K=c10::DispatchKey,
+              V=std::list<c10::impl::AnnotatedKernel,std::allocator<c10::impl::AnnotatedKernel>>
+          ]
+C:\libtorch\include\c10\util\flat_hash_map.h(1929,24): message : 컴파일되는 클래스 템플릿 인스턴스화 'ska::detailv3::sherwood_v3_table<std::pair<K,V>,K,H,ska::detailv3::KeyOrValueHasher<K,std::pair<K,V>,H>,E,ska::detailv3::KeyOrValueEquality<K,std::pair<K,V>,E>,A,std::allocator<ska::detailv3::sherwood_v3_entry<std::pair<K,V>>>>'에 대한 참조를 확인하세요.
+          with
+          [
+              K=c10::DispatchKey,
+              V=std::list<c10::impl::AnnotatedKernel,std::allocator<c10::impl::AnnotatedKernel>>,
+              H=std::hash<c10::DispatchKey>,
+              E=std::equal_to<c10::DispatchKey>,
+              A=std::allocator<std::pair<c10::DispatchKey,std::list<c10::impl::AnnotatedKernel,std::allocator<c10::impl::AnnotatedKernel>>>>
+          ]
+C:\libtorch\include\ATen\core\dispatch\OperatorEntry.h(270,24): message : 컴파일되는 클래스 템플릿 인스턴스화 'ska::flat_hash_map<c10::DispatchKey,std::list<c10::impl::AnnotatedKernel,std::allocator<c10::impl::AnnotatedKernel>>,std::hash<c10::DispatchKey>,std::equal_to<K>,std::allocator<std::pair<K,V>>>'에 대한 참조를 확인하세요.
+          with
+          [
+              K=c10::DispatchKey,
+              V=std::list<c10::impl::AnnotatedKernel,std::allocator<c10::impl::AnnotatedKernel>>
+          ]
+C:\libtorch\include\c10\util\SmallVector.h(105,12): warning C4267: '=': 'size_t'에서 'Size_T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              Size_T=unsigned int
+          ]
+C:\libtorch\include\c10\util\SmallVector.h(103,8): message : 클래스 템플릿 멤버 함수 'void c10::SmallVectorBase<unsigned int>::set_size(size_t)'을(를) 컴파일하는 중입니다.
+C:\libtorch\include\c10\util\SmallVector.h(484,19): message : 'c10::SmallVectorTemplateBase<T,false>::push_back'에서 'c10::SmallVectorBase<unsigned int>::set_size'에 대한 첫 번째 참조를 확인하세요.
+          with
+          [
+              T=torch::jit::TreeRef
+          ]
+C:\libtorch\include\torch\csrc\jit\frontend\tree.h(153,20): message : 'torch::jit::Compound::map'에서 'c10::SmallVectorTemplateBase<T,false>::push_back'에 대한 첫 번째 참조를 확인하세요.
+          with
+          [
+              T=torch::jit::TreeRef
+          ]
+C:\libtorch\include\c10\util\SmallVector.h(126,14): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::SmallVectorBase<unsigned int>'에 대한 참조를 확인하세요.
+C:\libtorch\include\c10\util\SmallVector.h(382,40): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::SmallVectorTemplateCommon<T,void>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=c10::SymInt
+          ]
+C:\libtorch\include\c10\util\SmallVector.h(639,32): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::SmallVectorTemplateBase<T,false>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=c10::SymInt
+          ]
+C:\libtorch\include\c10\util\SmallVector.h(1284,49): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::SmallVectorImpl<T>'에 대한 참조를 확인하세요.
+          with
+          [
+              T=c10::SymInt
+          ]
+C:\libtorch\include\c10\core\TensorImpl.h(221,16): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::SmallVector<c10::SymInt,5>'에 대한 참조를 확인하세요.
+C:\libtorch\include\c10\util\SmallVector.h(69,34): warning C4267: '초기화 중': 'size_t'에서 'Size_T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              Size_T=unsigned int
+          ]
+C:\libtorch\include\c10\util\SmallVector.h(68,3): message : 클래스 템플릿 멤버 함수 'c10::SmallVectorBase<unsigned int>::SmallVectorBase(void *,size_t)'을(를) 컴파일하는 중입니다.
+C:\libtorch\include\c10\util\SmallVector.h(140,48): message : 'c10::SmallVectorTemplateCommon<T,void>::SmallVectorTemplateCommon'에서 'c10::SmallVectorBase<unsigned int>::SmallVectorBase'에 대한 첫 번째 참조를 확인하세요.
+          with
+          [
+              T=torch::jit::TreeRef
+          ]
+C:\libtorch\include\c10\util\SmallVector.h(389,70): message : 'c10::SmallVectorTemplateBase<T,false>::SmallVectorTemplateBase'에서 'c10::SmallVectorTemplateCommon<T,void>::SmallVectorTemplateCommon'에 대한 첫 번째 참조를 확인하세요.
+          with
+          [
+              T=torch::jit::TreeRef
+          ]
+C:\libtorch\include\c10\util\SmallVector.h(653,68): message : 'c10::SmallVectorImpl<T>::SmallVectorImpl'에서 'c10::SmallVectorTemplateBase<T,false>::SmallVectorTemplateBase'에 대한 첫 번째 참조를 확인하세요.
+          with
+          [
+              T=torch::jit::TreeRef
+          ]
+C:\libtorch\include\c10\util\SmallVector.h(1342,54): message : 'c10::SmallVector<torch::jit::TreeRef,4>::SmallVector'에서 'c10::SmallVectorImpl<T>::SmallVectorImpl'에 대한 첫 번째 참조를 확인하세요.
+          with
+          [
+              T=torch::jit::TreeRef
+          ]
+C:\libtorch\include\torch\csrc\jit\frontend\tree.h(137,15): message : 'torch::jit::Compound::Compound'에서 'c10::SmallVector<torch::jit::TreeRef,4>::SmallVector'에 대한 첫 번째 참조를 확인하세요.
+C:\libtorch\include\c10\util\complex.h(173,14): warning C4244: '초기화 중': 'const T'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=double
+          ]
+          and
+          [
+              T=float
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(97,9): message : 컴파일되는 함수 템플릿 인스턴스화 'c10::complex<float>::complex<T>(const c10::complex<double> &)'에 대한 참조를 확인하세요.
+          with
+          [
+              T=float
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(96,5): message : 'c10::static_cast_with_inter_type<c10::complex<c10::Half>,c10::complex<double>>::apply'에서 'c10::complex<float>::complex'에 대한 첫 번째 참조를 확인하세요.
+C:\libtorch\include\c10\util\complex.h(173,34): warning C4244: '초기화 중': 'const T'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=double
+          ]
+          and
+          [
+              T=float
+          ]
+C:\libtorch\include\c10\util\Optional.h(647,62): warning C4267: '인수': 'size_t'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=int32_t
+          ]
+C:\libtorch\include\ATen\core\function_schema.h(436,16): message : 컴파일되는 함수 템플릿 인스턴스화 'c10::optional<int32_t>::optional<const I,false>(U &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              I=unsigned __int64,
+              U=unsigned __int64
+          ]
+C:\libtorch\include\ATen\core\function_schema.h(436,9): message : 'c10::FunctionSchema::argumentIndexWithName'에서 'c10::optional<int32_t>::optional'에 대한 첫 번째 참조를 확인하세요.
+C:\libtorch\include\c10\util\TypeCast.h(48,32): warning C4244: '인수': 'src_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              src_t=int64_t
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(44,67): message : 클래스 템플릿 멤버 함수 'dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              dest_t=c10::BFloat16,
+              From=int64_t,
+              src_t=int64_t
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(103,3): message : 'c10::convert'에서 'c10::static_cast_with_inter_type<To,From>::apply'에 대한 첫 번째 참조를 확인하세요.
+          with
+          [
+              To=c10::BFloat16,
+              From=int64_t
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(103,1): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::static_cast_with_inter_type<To,From>'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::BFloat16,
+              From=int64_t
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(115,10): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::convert<To,From>(From)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::BFloat16,
+              From=int64_t
+          ]
+C:\libtorch\include\c10\core\Scalar.h(89,3): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::checked_convert<c10::BFloat16,int64_t>(From,const char *)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::BFloat16,
+              From=int64_t
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(48,32): warning C4244: '인수': 'T'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=double
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(44,67): message : 클래스 템플릿 멤버 함수 'dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              dest_t=c10::BFloat16,
+              From=c10::complex<double>,
+              src_t=c10::complex<double>
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(103,3): message : 'c10::convert'에서 'c10::static_cast_with_inter_type<To,From>::apply'에 대한 첫 번째 참조를 확인하세요.
+          with
+          [
+              To=c10::BFloat16,
+              From=c10::complex<double>
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(103,1): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::static_cast_with_inter_type<To,From>'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::BFloat16,
+              From=c10::complex<double>
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(115,10): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::convert<To,From>(From)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::BFloat16,
+              From=c10::complex<double>
+          ]
+C:\libtorch\include\c10\core\Scalar.h(89,3): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::checked_convert<c10::BFloat16,c10::complex<double>>(From,const char *)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::BFloat16,
+              From=c10::complex<double>
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(48,32): warning C4244: '인수': 'src_t'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              src_t=double
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(44,67): message : 클래스 템플릿 멤버 함수 'dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              dest_t=c10::BFloat16,
+              From=double,
+              src_t=double
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(103,3): message : 'c10::convert'에서 'c10::static_cast_with_inter_type<To,From>::apply'에 대한 첫 번째 참조를 확인하세요.
+          with
+          [
+              To=c10::BFloat16,
+              From=double
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(103,1): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::static_cast_with_inter_type<To,From>'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::BFloat16,
+              From=double
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(115,10): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::convert<To,From>(From)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::BFloat16,
+              From=double
+          ]
+C:\libtorch\include\c10\core\Scalar.h(89,3): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::checked_convert<c10::BFloat16,double>(From,const char *)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::BFloat16,
+              From=double
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(48,32): warning C4244: '인수': 'src_t'에서 'const T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              src_t=int64_t
+          ]
+          and
+          [
+              T=double
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(44,67): message : 클래스 템플릿 멤버 함수 'dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              dest_t=c10::complex<double>,
+              From=int64_t,
+              src_t=int64_t
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(103,3): message : 'c10::convert'에서 'c10::static_cast_with_inter_type<To,From>::apply'에 대한 첫 번째 참조를 확인하세요.
+          with
+          [
+              To=c10::complex<double>,
+              From=int64_t
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(103,1): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::static_cast_with_inter_type<To,From>'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::complex<double>,
+              From=int64_t
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(115,10): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::convert<To,From>(From)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::complex<double>,
+              From=int64_t
+          ]
+C:\libtorch\include\c10\core\Scalar.h(89,3): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::checked_convert<c10::complex<double>,int64_t>(From,const char *)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::complex<double>,
+              From=int64_t
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(48,32): warning C4244: '인수': 'src_t'에서 'const T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              src_t=int64_t
+          ]
+          and
+          [
+              T=float
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(44,67): message : 클래스 템플릿 멤버 함수 'dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              dest_t=c10::complex<float>,
+              From=int64_t,
+              src_t=int64_t
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(103,3): message : 'c10::convert'에서 'c10::static_cast_with_inter_type<To,From>::apply'에 대한 첫 번째 참조를 확인하세요.
+          with
+          [
+              To=c10::complex<float>,
+              From=int64_t
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(103,1): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::static_cast_with_inter_type<To,From>'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::complex<float>,
+              From=int64_t
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(115,10): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::convert<To,From>(From)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::complex<float>,
+              From=int64_t
+          ]
+C:\libtorch\include\c10\core\Scalar.h(89,3): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::checked_convert<c10::complex<float>,int64_t>(From,const char *)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::complex<float>,
+              From=int64_t
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(48,32): warning C4244: '인수': 'src_t'에서 'const T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              src_t=double
+          ]
+          and
+          [
+              T=float
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(44,67): message : 클래스 템플릿 멤버 함수 'dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              dest_t=c10::complex<float>,
+              From=double,
+              src_t=double
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(103,3): message : 'c10::convert'에서 'c10::static_cast_with_inter_type<To,From>::apply'에 대한 첫 번째 참조를 확인하세요.
+          with
+          [
+              To=c10::complex<float>,
+              From=double
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(103,1): message : 컴파일되는 클래스 템플릿 인스턴스화 'c10::static_cast_with_inter_type<To,From>'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::complex<float>,
+              From=double
+          ]
+C:\libtorch\include\c10\util\TypeCast.h(115,10): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::convert<To,From>(From)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::complex<float>,
+              From=double
+          ]
+C:\libtorch\include\c10\core\Scalar.h(89,3): message : 컴파일되는 함수 템플릿 인스턴스화 'To c10::checked_convert<c10::complex<float>,double>(From,const char *)'에 대한 참조를 확인하세요.
+          with
+          [
+              To=c10::complex<float>,
+              From=double
+          ]
+C:\libtorch\include\c10\util\SmallVector.h(523,20): warning C4267: '=': 'size_t'에서 'Size_T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              Size_T=unsigned int
+          ]
+C:\libtorch\include\c10\util\SmallVector.h(517,25): message : 클래스 템플릿 멤버 함수 'void c10::SmallVectorTemplateBase<T,false>::takeAllocationForGrow(T *,size_t)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              T=c10::SymInt
+          ]
+C:\libtorch\include\c10\util\SmallVector.h(499,24): message : 'c10::SmallVectorTemplateBase<T,false>::grow'에서 'c10::SmallVectorTemplateBase<T,false>::takeAllocationForGrow'에 대한 첫 번째 참조를 확인하세요.
+          with
+          [
+              T=c10::SymInt
+          ]
+C:\libtorch\include\c10\util\SmallVector.h(1175,15): message : 'c10::SmallVectorImpl<T>::operator ='에서 'c10::SmallVectorTemplateBase<T,false>::grow'에 대한 첫 번째 참조를 확인하세요.
+          with
+          [
+              T=c10::SymInt
+          ]
+C:\libtorch\include\c10\util\SmallVector.h(1344,36): message : 'c10::SmallVector<c10::SymInt,5>::SmallVector'에서 'c10::SmallVectorImpl<T>::operator ='에 대한 첫 번째 참조를 확인하세요.
+          with
+          [
+              T=c10::SymInt
+          ]
+C:\libtorch\include\c10\core\TensorImpl.h(247,15): message : 'c10::ExtraMeta::ExtraMeta'에서 'c10::SmallVector<c10::SymInt,5>::SmallVector'에 대한 첫 번째 참조를 확인하세요.
+C:\libtorch\include\c10\util\SmallVector.h(1082,36): message : 클래스 템플릿 멤버 함수 'c10::SmallVectorImpl<T> &c10::SmallVectorImpl<T>::operator =(const c10::SmallVectorImpl<T> &)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              T=c10::SymInt
+          ]
+C:\libtorch\include\c10\util\SmallVector.h(1334,36): message : 'c10::SmallVector<c10::SymInt,5>::SmallVector'에서 'c10::SmallVectorImpl<T>::operator ='에 대한 첫 번째 참조를 확인하세요.
+          with
+          [
+              T=c10::SymInt
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(3465,5): message : 'std::make_unique'에서 'c10::SmallVector<c10::SymInt,5>::SmallVector'에 대한 첫 번째 참조를 확인하세요.
+C:\libtorch\include\c10\util\SmallVector.h(1130,77): message : 클래스 템플릿 멤버 함수 'c10::SmallVectorImpl<T> &c10::SmallVectorImpl<T>::operator =(c10::SmallVectorImpl<T> &&)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              T=c10::SymInt
+          ]
+C:\libtorch\include\c10\util\SmallVector.h(1344,36): message : 'c10::SmallVector<c10::SymInt,5>::SmallVector'에서 'c10::SmallVectorImpl<T>::operator ='에 대한 첫 번째 참조를 확인하세요.
+          with
+          [
+              T=c10::SymInt
+          ]
+C:\libtorch\include\c10\core\TensorImpl.h(247,15): message : 'c10::ExtraMeta::ExtraMeta'에서 'c10::SmallVector<c10::SymInt,5>::SmallVector'에 대한 첫 번째 참조를 확인하세요.
+  CV_ex_01.vcxproj -> C:\Users\dksdu\OneDrive\바탕 화면\openCV\CV_ex_01\x64\Debug\CV_ex_01.exe

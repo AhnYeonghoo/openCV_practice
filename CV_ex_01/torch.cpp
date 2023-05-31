@@ -1,10 +1,11 @@
 #include <torch/torch.h>
+#include <torch/script.h>
 #include <iostream>
 #include <memory>
 
 using namespace std;
 
-int main(int argc, const char* argv[])
+int main98(int argc, const char* argv[])
 {
 	if (argc != 2)
 	{
