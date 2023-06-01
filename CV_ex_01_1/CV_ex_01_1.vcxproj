@@ -133,15 +133,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="drawing.cpp" />
+    <ClCompile Include="input_array_op.cpp" />
     <ClCompile Include="mapop2.cpp" />
+    <ClCompile Include="mapop4.cpp" />
     <ClCompile Include="matop3.cpp" />
+    <ClCompile Include="matop5.cpp" />
+    <ClCompile Include="matop6.cpp" />
+    <ClCompile Include="matpop7.cpp" />
     <ClCompile Include="matx.cpp" />
     <ClCompile Include="mat_attr.cpp" />
     <ClCompile Include="mat_copy.cpp" />
     <ClCompile Include="mat_op.cpp" />
     <ClCompile Include="mat_reshape.cpp" />
     <ClCompile Include="mat_resize.cpp" />
+    <ClCompile Include="scalarop.cpp" />
     <ClCompile Include="vector_init.cpp" />
+    <ClCompile Include="video.cpp" />
+    <ClCompile Include="video2.cpp" />
+    <ClCompile Include="video3.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
