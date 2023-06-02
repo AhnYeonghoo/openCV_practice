@@ -148,10 +148,12 @@
     <ClCompile Include="mat_reshape.cpp" />
     <ClCompile Include="mat_resize.cpp" />
     <ClCompile Include="scalarop.cpp" />
+    <ClCompile Include="trackbar.cpp" />
     <ClCompile Include="vector_init.cpp" />
     <ClCompile Include="video.cpp" />
     <ClCompile Include="video2.cpp" />
     <ClCompile Include="video3.cpp" />
+    <ClCompile Include="writedata.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

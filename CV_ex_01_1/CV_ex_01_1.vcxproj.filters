@@ -72,5 +72,11 @@
     <ClCompile Include="drawing.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="trackbar.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="writedata.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

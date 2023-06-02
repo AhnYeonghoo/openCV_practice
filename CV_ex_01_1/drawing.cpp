@@ -94,16 +94,86 @@ void drawText2()
 	imshow("img", img);
 	waitKey();
 	destroyAllWindows();
-	
-	
 }
-int main()
+
+int keyboard()
+{
+	Mat img = imread("lenna.bmp");
+	
+	if (img.empty())
+	{
+		cerr << "Image load failed!" << endl;
+		return -1;
+	}
+	
+	namedWindow("img");
+	imshow("img", img);
+
+	while (true)
+	{
+		int keycode = waitKey();
+		
+		if (keycode == 'i' || keycode == 'I')
+		{
+			img = ~img;
+			imshow("img", img);
+		}
+		else if (keycode == 27 || keycode == 'q' || keycode == 'Q')
+		{
+			break;
+		}
+	}
+	return 0;
+}
+
+void mouse(int event, int x, int y, int flags, void*)
+{
+	Mat img;
+	Point ptOld;
+
+	switch (event)
+	{
+	case EVENT_LBUTTONDOWN:
+		ptOld = Point(x, y);
+		cout << "EVENT_LBUTTONDOWN: " << x << ", " << y << endl;
+		break;
+	case EVENT_LBUTTONUP:
+		cout << "EVENT_LBUTTONUP: " << x << ", " << y << endl;
+		break;
+	case EVENT_MOUSEMOVE:
+		if (flags & EVENT_FLAG_LBUTTON)
+		{
+			line(img, ptOld, Point(x, y), Scalar(0, 255, 255), 2);
+			imshow("img", img);
+			ptOld = Point(x, y);
+		}
+		break;
+	default:
+		break;
+	}
+}
+
+int maindrawing()
 {
 
-
+	Mat img = imread("lenna.bmp");
+	
+	if (img.empty())
+	{
+		cerr << "Image load failed" << endl;
+		return -1;
+	}
+	
+	namedWindow("img");
+	setMouseCallback("img", mouse);
+	
+	imshow("img", img);
+	waitKey();
+	
+	//keyboard();
 	//drawPolys();
 	//drawText1();
-	drawText2();
+	//drawText2();
 	return 0;
 }
 
