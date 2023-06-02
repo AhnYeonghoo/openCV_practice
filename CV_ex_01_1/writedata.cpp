@@ -398,6 +398,52 @@ void logical()
 	destroyAllWindows();
 
 }
+
+void filterEmbossing()
+{
+	Mat src = imread("rose.bmp", IMREAD_GRAYSCALE);
+	if (src.empty())
+	{
+		cerr << "Image load failed!" << endl;
+		return;
+	}
+
+	float data[] = { -1, -1, 0, -1, 0, 1, 0, 1, 1 };
+	Mat emboss(3, 3, CV_32FC1, data);
+
+	Mat dst;
+	filter2D(src, dst, -1, emboss, Point(-1, -1), 128);
+
+	imshow("src", src);
+	imshow("dst", dst);
+	waitKey();
+	destroyAllWindows();
+}
+
+void blurringMean()
+{
+	Mat src = imread("rose.bmp", IMREAD_GRAYSCALE);
+	if (src.empty())
+	{
+		cerr << "image load failed!" << endl;
+		return;
+	}
+
+	imshow("src", src);
+
+	Mat dst;
+
+	for (int ksize = 3; ksize <= 7; ksize += 2)
+	{
+		blur(src, dst, Size(ksize, ksize));
+		String desc = format("Mean: %dx%d", ksize, ksize);
+		putText(dst, desc, Point(10, 30), FONT_HERSHEY_SIMPLEX, 1.0,
+			Scalar(255), 1, LINE_AA);
+		imshow("dst", dst);
+		waitKey();
+	}
+	destroyAllWindows();
+}
 int main()
 {
 
@@ -414,7 +460,9 @@ int main()
 	//histogramStretching();
 	//histotramEqualization();
 	//arithmetic();
-	logical();
+	//logical();
+	//filterEmbossing();
+	//blurringMean();
 
 	return 0;
 }
