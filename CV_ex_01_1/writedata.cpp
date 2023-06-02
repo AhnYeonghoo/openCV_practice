@@ -317,6 +317,87 @@ void histogramStretching()
 	destroyAllWindows();
 }
 
+void histotramEqualization()
+{
+	Mat src = imread("hawkes.bmp", IMREAD_GRAYSCALE);
+
+	if (src.empty()) {
+		cerr << "Image load failed!" << endl;
+		return;
+	}
+
+	Mat dst;
+	equalizeHist(src, dst);
+
+	imshow("src", src);
+	imshow("srcHist", getGrayHistImage(calcGrayHist(src)));
+
+	imshow("dst", dst);
+	imshow("dstHist", getGrayHistImage(calcGrayHist(dst)));
+
+	waitKey();
+	destroyAllWindows();
+}
+
+void arithmetic()
+{
+	Mat src1 = imread("lenna256.bmp", IMREAD_GRAYSCALE);
+	Mat src2 = imread("square.bmp", IMREAD_GRAYSCALE);
+
+	if (src1.empty() || src2.empty())
+	{
+		cerr << "image load failed!" << endl;
+		return;
+	}
+
+	imshow("src1", src1);
+	imshow("src2", src2);
+
+	Mat dst1, dst2, dst3, dst4;
+
+	add(src1, src2, dst1);
+	addWeighted(src1, 0.5, src2, 0.5, 0, dst2);
+	subtract(src1, src2, dst3);
+	absdiff(src1, src2, dst4);
+
+	imshow("dst1", dst1);
+	imshow("dst2", dst2);
+	imshow("dst3", dst3);
+	imshow("dst4", dst4);
+	waitKey();
+
+}
+
+void logical()
+{
+	Mat src1 = imread("lenna256.bmp", IMREAD_GRAYSCALE);
+	Mat src2 = imread("square.bmp", IMREAD_GRAYSCALE);
+
+	if (src1.empty() || src2.empty())
+	{
+		cerr << "image load failed" << endl;
+		return;
+	}
+
+	imshow("src1", src1);
+	imshow("src2", src2);
+
+	Mat dst1, dst2, dst3, dst4;
+
+	bitwise_and(src1, src2, dst1);
+	bitwise_or(src1, src2, dst2);
+	bitwise_xor(src1, src2, dst3);
+	bitwise_not(src1, dst4);
+
+	imshow("dst1", dst1);
+	imshow("dst2", dst2);
+	imshow("dst3", dst3);
+	imshow("dst4", dst4);
+
+	waitKey();
+	destroyAllWindows();
+
+}
 int main()
 {
 
@@ -330,8 +411,10 @@ int main()
 	//brightness3();
 	//brightness4();
 	//contrast1();
-
-	histogramStretching();
+	//histogramStretching();
+	//histotramEqualization();
+	//arithmetic();
+	logical();
 
 	return 0;
 }
