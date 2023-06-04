@@ -133,6 +133,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="chapter8.cpp" />
+    <ClCompile Include="chapter8_2.cpp" />
+    <ClCompile Include="chapter9.cpp" />
     <ClCompile Include="drawing.cpp" />
     <ClCompile Include="input_array_op.cpp" />
     <ClCompile Include="mapop2.cpp" />

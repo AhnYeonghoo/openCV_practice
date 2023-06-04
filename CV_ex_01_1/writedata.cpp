@@ -573,7 +573,7 @@ void filterMedian()
 
 
 }
-int main()
+int mainchapter3_7()
 {
 
 	//writeData();
