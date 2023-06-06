@@ -9,7 +9,7 @@ using namespace cv;
 
 
 /* @ function main */
-int main(int argc, char* argv[])
+int maindetectionface(int argc, char* argv[])
 {
     // open the default camera
     cv::VideoCapture cap(0);

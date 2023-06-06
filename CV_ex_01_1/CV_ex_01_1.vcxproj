@@ -136,6 +136,7 @@
     <ClCompile Include="adaptive.cpp" />
     <ClCompile Include="backpro.cpp" />
     <ClCompile Include="chapter11.cpp" />
+    <ClCompile Include="chapter13.cpp" />
     <ClCompile Include="chapter8.cpp" />
     <ClCompile Include="chapter8_2.cpp" />
     <ClCompile Include="chapter9.cpp" />
