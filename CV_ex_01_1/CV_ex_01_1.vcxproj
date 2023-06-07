@@ -159,6 +159,7 @@
     <ClCompile Include="mat_reshape.cpp" />
     <ClCompile Include="mat_resize.cpp" />
     <ClCompile Include="scalarop.cpp" />
+    <ClCompile Include="stitching.cpp" />
     <ClCompile Include="trackbar.cpp" />
     <ClCompile Include="vector_init.cpp" />
     <ClCompile Include="video.cpp" />
