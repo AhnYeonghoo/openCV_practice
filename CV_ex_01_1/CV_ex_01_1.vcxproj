@@ -146,6 +146,7 @@
     <ClCompile Include="drawing.cpp" />
     <ClCompile Include="input_array_op.cpp" />
     <ClCompile Include="inrange.cpp" />
+    <ClCompile Include="knnplane.cpp" />
     <ClCompile Include="mapop2.cpp" />
     <ClCompile Include="mapop4.cpp" />
     <ClCompile Include="matop3.cpp" />
@@ -161,6 +162,7 @@
     <ClCompile Include="scalarop.cpp" />
     <ClCompile Include="stitching.cpp" />
     <ClCompile Include="trackbar.cpp" />
+    <ClCompile Include="trainknn.cpp" />
     <ClCompile Include="vector_init.cpp" />
     <ClCompile Include="video.cpp" />
     <ClCompile Include="video2.cpp" />

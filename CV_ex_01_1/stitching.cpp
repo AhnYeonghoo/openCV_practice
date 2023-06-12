@@ -3,7 +3,7 @@
 using namespace std;
 using namespace cv;
 
-int main(int argc, char* argv[])
+int mainstitching(int argc, char* argv[])
 {
 	if (argc < 3)
 	{

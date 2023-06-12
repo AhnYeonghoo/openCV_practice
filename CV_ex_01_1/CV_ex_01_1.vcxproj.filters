@@ -114,5 +114,11 @@
     <ClCompile Include="stitching.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="knnplane.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="trainknn.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

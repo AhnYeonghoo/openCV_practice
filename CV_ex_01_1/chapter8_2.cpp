@@ -6,7 +6,7 @@ using namespace std;
 Point2f srcquad[4], dstquad[4];
 Mat src;
 
-void onMouse(int event, int x, int y, int flags, void* userdata)
+void onMouse2(int event, int x, int y, int flags, void* userdata)
 {
 	static int cnt = 0;
 	if (event == EVENT_LBUTTONDOWN)
@@ -46,7 +46,7 @@ int mainchapter8_2()
 	}
 
 	namedWindow("src");
-	setMouseCallback("src", onMouse);
+	setMouseCallback("src", onMouse2);
 	imshow("src", src);
 	waitKey();
 	return 0;
