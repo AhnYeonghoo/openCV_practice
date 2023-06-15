@@ -54,7 +54,7 @@ void UserType::setBirth(const DateType& date)
 	Birth_ = date;
 }
 
-int main()
+int maintest()
 {
 	UserType User;
 	std::cout << User.getName() << '\t' << User.getBirth().to_string() << std::endl;
