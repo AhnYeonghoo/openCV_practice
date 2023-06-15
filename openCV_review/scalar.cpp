@@ -3,7 +3,7 @@
 using namespace cv;
 using namespace std;
 
-int main()
+int mainscalar()
 {
 	Scalar_<uchar> red(0, 0, 255);
 	Scalar_<int> blue(255, 0, 0);
