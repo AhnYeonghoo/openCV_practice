@@ -3,7 +3,7 @@
 using namespace cv;
 using namespace std;
 
-int main()
+int mainsize()
 {
 	// Size_ 객체 기본 선언 방식
 	Size_<int> sz1(100, 200);
@@ -26,5 +26,6 @@ int main()
 	cout << "[sz7] = " << sz7 << endl;
 	cout << "[sz8] = " << sz8 << endl;
 	cout << "[sz9] = " << sz9 << endl;
+
 	return 0;
 }

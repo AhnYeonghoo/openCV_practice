@@ -33,5 +33,14 @@
     <ClCompile Include="size.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="rect.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="vec.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="scalar.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
