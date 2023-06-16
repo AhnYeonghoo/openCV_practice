@@ -132,6 +132,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="class_example.cpp" />
+    <ClCompile Include="exception.cpp" />
     <ClCompile Include="first.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mat.cpp" />
@@ -141,16 +142,25 @@
     <ClCompile Include="mat_init1.cpp" />
     <ClCompile Include="mat_init2.cpp" />
     <ClCompile Include="mat_op.cpp" />
+    <ClCompile Include="mat_operator.cpp" />
+    <ClCompile Include="mat_release.cpp" />
     <ClCompile Include="mat_reshape.cpp" />
     <ClCompile Include="mat_resize.cpp" />
+    <ClCompile Include="mat_vector.cpp" />
     <ClCompile Include="myclass.cpp" />
     <ClCompile Include="point2.cpp" />
     <ClCompile Include="point3.cpp" />
+    <ClCompile Include="range_test1.cpp" />
+    <ClCompile Include="range_test2.cpp" />
     <ClCompile Include="rect.cpp" />
     <ClCompile Include="rotatedRect.cpp" />
+    <ClCompile Include="saturate_cast.cpp" />
     <ClCompile Include="scalar.cpp" />
     <ClCompile Include="size.cpp" />
     <ClCompile Include="vec.cpp" />
+    <ClCompile Include="vector_init.cpp" />
+    <ClCompile Include="vector_reserve.cpp" />
+    <ClCompile Include="vector_use.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

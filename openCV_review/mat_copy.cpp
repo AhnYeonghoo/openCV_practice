@@ -3,7 +3,7 @@
 using namespace cv;
 using namespace std;
 
-int main()
+int mainmatcopy()
 {
 	double data[] =
 	{
