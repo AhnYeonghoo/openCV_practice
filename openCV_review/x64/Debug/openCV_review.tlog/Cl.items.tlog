@@ -1,4 +1,7 @@
 C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\class_example.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\class_example.obj
+C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\event_key.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\event_key.obj
+C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\event_mouse.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\event_mouse.obj
+C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\event_trackbar.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\event_trackbar.obj
 C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\exception.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\exception.obj
 C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\first.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\first.obj
 C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\main.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\main.obj
@@ -28,3 +31,5 @@ C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\vec.cpp;C:\Users\dksd
 C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\vector_init.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\vector_init.obj
 C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\vector_reserve.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\vector_reserve.obj
 C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\vector_use.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\vector_use.obj
+C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\window_move.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\window_move.obj
+C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\window_resize.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\window_resize.obj

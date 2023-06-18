@@ -4,7 +4,7 @@
 using namespace cv;
 using namespace std;
 
-int main()
+int mainexception()
 {
 
 	string msg1 = "a is one";

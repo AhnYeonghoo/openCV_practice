@@ -132,6 +132,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="class_example.cpp" />
+    <ClCompile Include="event_key.cpp" />
+    <ClCompile Include="event_mouse.cpp" />
+    <ClCompile Include="event_trackbar.cpp" />
     <ClCompile Include="exception.cpp" />
     <ClCompile Include="first.cpp" />
     <ClCompile Include="main.cpp" />
@@ -161,6 +164,8 @@
     <ClCompile Include="vector_init.cpp" />
     <ClCompile Include="vector_reserve.cpp" />
     <ClCompile Include="vector_use.cpp" />
+    <ClCompile Include="window_move.cpp" />
+    <ClCompile Include="window_resize.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
