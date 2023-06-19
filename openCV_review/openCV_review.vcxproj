@@ -132,8 +132,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="class_example.cpp" />
+    <ClCompile Include="draw_line_rect.cpp" />
+    <ClCompile Include="draw_text.cpp" />
     <ClCompile Include="event_key.cpp" />
     <ClCompile Include="event_mouse.cpp" />
+    <ClCompile Include="event_mouse_trackbar.cpp" />
     <ClCompile Include="event_trackbar.cpp" />
     <ClCompile Include="exception.cpp" />
     <ClCompile Include="first.cpp" />

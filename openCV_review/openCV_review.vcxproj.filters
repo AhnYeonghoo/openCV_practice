@@ -123,5 +123,14 @@
     <ClCompile Include="event_trackbar.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="event_mouse_trackbar.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_line_rect.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_text.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

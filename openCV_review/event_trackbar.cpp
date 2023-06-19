@@ -15,7 +15,7 @@ void onChange(int value, void* userdata)
 	imshow(title, temp);
 }
 
-int main()
+int main_event_trackbar()
 {
 	int value = 120;
 	image = Mat(300, 400, CV_8UC1, Scalar(120));
