@@ -132,8 +132,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="class_example.cpp" />
+    <ClCompile Include="draw_circle.cpp" />
+    <ClCompile Include="draw_ellipse.cpp" />
     <ClCompile Include="draw_line_rect.cpp" />
     <ClCompile Include="draw_text.cpp" />
+    <ClCompile Include="event_draw.cpp" />
     <ClCompile Include="event_key.cpp" />
     <ClCompile Include="event_mouse.cpp" />
     <ClCompile Include="event_mouse_trackbar.cpp" />
@@ -142,8 +145,11 @@
     <ClCompile Include="first.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mat.cpp" />
+    <ClCompile Include="matop1.cpp" />
     <ClCompile Include="matx.cpp" />
+    <ClCompile Include="mat_array.cpp" />
     <ClCompile Include="mat_attr.cpp" />
+    <ClCompile Include="mat_channel.cpp" />
     <ClCompile Include="mat_copy.cpp" />
     <ClCompile Include="mat_init1.cpp" />
     <ClCompile Include="mat_init2.cpp" />
@@ -158,6 +164,7 @@
     <ClCompile Include="point3.cpp" />
     <ClCompile Include="range_test1.cpp" />
     <ClCompile Include="range_test2.cpp" />
+    <ClCompile Include="read_image1.cpp" />
     <ClCompile Include="rect.cpp" />
     <ClCompile Include="rotatedRect.cpp" />
     <ClCompile Include="saturate_cast.cpp" />
