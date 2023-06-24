@@ -131,6 +131,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="circle_draw.cpp" />
     <ClCompile Include="class_example.cpp" />
     <ClCompile Include="draw_circle.cpp" />
     <ClCompile Include="draw_ellipse.cpp" />

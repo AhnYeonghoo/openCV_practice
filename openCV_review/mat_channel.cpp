@@ -3,7 +3,7 @@
 using namespace cv;
 using namespace std;
 
-int main()
+int main_mat_channel()
 {
 	Mat ch0(3, 4, CV_8U, Scalar(10));
 	Mat ch1(3, 4, CV_8U, Scalar(20));
