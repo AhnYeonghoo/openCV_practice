@@ -144,6 +144,7 @@
     <ClCompile Include="event_trackbar.cpp" />
     <ClCompile Include="exception.cpp" />
     <ClCompile Include="first.cpp" />
+    <ClCompile Include="image_channels.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mat.cpp" />
     <ClCompile Include="matop1.cpp" />
@@ -160,6 +161,7 @@
     <ClCompile Include="mat_reshape.cpp" />
     <ClCompile Include="mat_resize.cpp" />
     <ClCompile Include="mat_vector.cpp" />
+    <ClCompile Include="mixchannels.cpp" />
     <ClCompile Include="myclass.cpp" />
     <ClCompile Include="point2.cpp" />
     <ClCompile Include="point3.cpp" />

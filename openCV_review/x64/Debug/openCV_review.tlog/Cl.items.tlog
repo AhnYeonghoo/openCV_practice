@@ -11,6 +11,7 @@ C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\event_mouse_trackbar.
 C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\event_trackbar.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\event_trackbar.obj
 C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\exception.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\exception.obj
 C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\first.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\first.obj
+C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\image_channels.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\image_channels.obj
 C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\main.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\main.obj
 C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\mat.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\mat.obj
 C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\matop1.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\matop1.obj
@@ -27,6 +28,7 @@ C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\mat_release.cpp;C:\Us
 C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\mat_reshape.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\mat_reshape.obj
 C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\mat_resize.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\mat_resize.obj
 C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\mat_vector.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\mat_vector.obj
+C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\mixchannels.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\mixchannels.obj
 C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\myclass.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\myclass.obj
 C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\point2.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\point2.obj
 C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\point3.cpp;C:\Users\dksdu\OneDrive\바탕 화면\openCV\openCV_review\x64\Debug\point3.obj

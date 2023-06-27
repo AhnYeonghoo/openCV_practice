@@ -1,7 +1,7 @@
 #include <opencv2/opencv.hpp>
 using namespace cv;
 
-int main()
+int main_circle_draw()
 {
 	int width = 500;
 	int height = 500;
