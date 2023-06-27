@@ -131,6 +131,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="arithmetic.cpp" />
+    <ClCompile Include="bitwise_op.cpp" />
     <ClCompile Include="circle_draw.cpp" />
     <ClCompile Include="class_example.cpp" />
     <ClCompile Include="draw_circle.cpp" />
@@ -143,13 +145,16 @@
     <ClCompile Include="event_mouse_trackbar.cpp" />
     <ClCompile Include="event_trackbar.cpp" />
     <ClCompile Include="exception.cpp" />
+    <ClCompile Include="exp_log.cpp" />
     <ClCompile Include="first.cpp" />
     <ClCompile Include="image_channels.cpp" />
+    <ClCompile Include="magnitude.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mat.cpp" />
     <ClCompile Include="matop1.cpp" />
     <ClCompile Include="matx.cpp" />
     <ClCompile Include="mat_array.cpp" />
+    <ClCompile Include="mat_at.cpp" />
     <ClCompile Include="mat_attr.cpp" />
     <ClCompile Include="mat_channel.cpp" />
     <ClCompile Include="mat_copy.cpp" />
