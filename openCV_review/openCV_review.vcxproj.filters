@@ -186,5 +186,16 @@
     <ClCompile Include="mat_abs.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Resource.hpp">
+      <Filter>소스 파일\practice_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="example15_1.cpp">
+      <Filter>소스 파일\practice_cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutoPtr.hpp">
+      <Filter>소스 파일\practice_cpp</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

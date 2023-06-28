@@ -145,6 +145,7 @@
     <ClCompile Include="event_mouse.cpp" />
     <ClCompile Include="event_mouse_trackbar.cpp" />
     <ClCompile Include="event_trackbar.cpp" />
+    <ClCompile Include="example15_1.cpp" />
     <ClCompile Include="exception.cpp" />
     <ClCompile Include="exp_log.cpp" />
     <ClCompile Include="first.cpp" />
@@ -168,6 +169,7 @@
     <ClCompile Include="mat_reshape.cpp" />
     <ClCompile Include="mat_resize.cpp" />
     <ClCompile Include="mat_vector.cpp" />
+    <ClCompile Include="Resource.hpp" />
     <ClCompile Include="mixchannels.cpp" />
     <ClCompile Include="mobileNetSSD_dnn.cpp" />
     <ClCompile Include="myclass.cpp" />
@@ -187,6 +189,9 @@
     <ClCompile Include="vector_use.cpp" />
     <ClCompile Include="window_move.cpp" />
     <ClCompile Include="window_resize.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutoPtr.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

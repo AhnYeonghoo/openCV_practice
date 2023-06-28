@@ -3,7 +3,7 @@
 using namespace cv;
 using namespace std;
 
-int main()
+int main_mat_abs()
 {
 	Mat image1 = imread("abs_test1.jpg", 0);
 	Mat image2 = imread("abs_test2.jpg", 0);
