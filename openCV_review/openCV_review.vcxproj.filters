@@ -177,5 +177,14 @@
     <ClCompile Include="mat_at.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="mobileNetSSD_dnn.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="bitwise_overlap.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="mat_abs.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

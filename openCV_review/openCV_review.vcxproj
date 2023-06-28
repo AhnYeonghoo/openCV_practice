@@ -133,6 +133,7 @@
   <ItemGroup>
     <ClCompile Include="arithmetic.cpp" />
     <ClCompile Include="bitwise_op.cpp" />
+    <ClCompile Include="bitwise_overlap.cpp" />
     <ClCompile Include="circle_draw.cpp" />
     <ClCompile Include="class_example.cpp" />
     <ClCompile Include="draw_circle.cpp" />
@@ -153,6 +154,7 @@
     <ClCompile Include="mat.cpp" />
     <ClCompile Include="matop1.cpp" />
     <ClCompile Include="matx.cpp" />
+    <ClCompile Include="mat_abs.cpp" />
     <ClCompile Include="mat_array.cpp" />
     <ClCompile Include="mat_at.cpp" />
     <ClCompile Include="mat_attr.cpp" />
@@ -167,6 +169,7 @@
     <ClCompile Include="mat_resize.cpp" />
     <ClCompile Include="mat_vector.cpp" />
     <ClCompile Include="mixchannels.cpp" />
+    <ClCompile Include="mobileNetSSD_dnn.cpp" />
     <ClCompile Include="myclass.cpp" />
     <ClCompile Include="point2.cpp" />
     <ClCompile Include="point3.cpp" />
